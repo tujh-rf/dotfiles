@@ -1,0 +1,10 @@
+[credential]
+	helper = cache
+[color]
+	ui = auto
+[user]
+	name = Egor Konovalov
+[push]
+	default = simple
+[diff]
+	tool = git-meld
