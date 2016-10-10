@@ -17,5 +17,7 @@ function nonzero_return() {
 export PS1="\[\e[m\]\d \t [\[\e[34m\]\u\[\e[m\]@\[\e[32m\]\w\[\e[m\]]\\$\[\e[31m\]\`nonzero_return\`\[\e[m\] \[\e[1;33m\]"
 
 export EDITOR=gedit
+export HISTTIMEFORMAT="%h %d %H:%M:%S "
+export HISTCONTROL=ignoreboth
 
 trap 'printf "\e[0m" "$_"' DEBUG
